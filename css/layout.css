@@ -1,0 +1,85 @@
+body{
+  background-color: #f7f7f7;
+}
+
+h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container-tight{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.navbar{
+  margin-bottom: 0;
+  height: 50px;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+
+
+.carousel-img{
+  width: 100%;
+  max-height: 100%;
+}
+
+.my-carousel-caption{
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  color: #FFF;
+  background-color: rgba(0,0,0, .7);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.section{
+  margin-top: -50px;
+  padding-top: 50px;
+}
+
+.section-bar{
+  background-color: #333333;
+  color: white;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.7);
+}
+
+.float-right{ float: right; }
+.float-left{ float: left; }
+
+h3.float-left{
+  padding-left: 15px;
+  color: #FFF;
+}
+
+.btn-up{
+  margin-top: 6px;
+  background-color: #292626;
+  color: #FFF;
+  border-radius: 8px;
+  border-color: #6B6060;
+}
+
+.bordered { 
+  width: 100%;
+}
+
+.bordered:before, .bordered:after {
+  content: "";
+  height: 1px;
+  background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(147,147,147,1) 50%,rgba(0,0,0,0) 100%);
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.footer{
+  height: 150px;
+  background-color: #000;
+  color: #FFF;
+}
