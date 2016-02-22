@@ -4,6 +4,7 @@
   <title>James M Klein</title>
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/manifest.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="favicon" href="/favicon.ico" type="image/x-icon" />
   
   <script src="js/libs/modernizr.custom.97074.js"></script>
@@ -113,8 +114,6 @@
     <hr class="invisible" />
     <div class="container">
 
-
-
       <div class="btn-group filter-button-group" role="group">
         <button type="button" class="btn btn-default active" data-filter="*">Show All</button>
         <button type="button" class="btn btn-default" data-filter=".web-dev">Web Development</button>
@@ -161,21 +160,8 @@
             </div>
           </a>
         </li>
-
-
-
-<!--               <div class="portfolio-link-container">
-                <a href="https://average-salary.herokuapp.com/" target="_blank" class="portfolio-link">
-                  App
-                </a>
-                <a href="https://github.com/kleinjm/average_salary" target="_blank" class="portfolio-link">
-                  Git
-                </a>
-              </div>
- -->
-
         <li class="iso-item code-ex web-dev">
-          <a href="#" class="js-git-or-app">
+          <a href="https://github.com/kleinjm/average_salary" target="_blank">
             <img src="images/portfolio/average_salary.jpg" class="img-responsive" />
             <div class="portfolio-text">
               <h2>Average Salary</h2>
@@ -262,7 +248,7 @@
     <hr class="invisible" />
     <hr class="invisible" />
     <div class="container-tight">
-      <form class="form-horizontal">
+      <!-- <form class="form-horizontal">
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
@@ -272,6 +258,13 @@
           <textarea type="message" class="form-control" id="exampleInputPassword1" placeholder="Message" rows="5"></textarea>
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
+      </form> -->
+      <form action="http://www.bluehost.com/bluemail" enctype="multipart/form-data" method="POST">
+        Name: <input type="text" name="Name"><br>
+        Email: <input type="text" name="mailfrom"><br>
+        Message: <input type="text" name="Message"><br>
+        <input type="hidden" name="sendtoemail" value="james@jamesmklein.com"><br>
+        <input type="submit" value="Send Email">
       </form>
     </div>
     <hr class="invisible" />
@@ -284,8 +277,23 @@
     <hr class="invisible" />
     <hr class="invisible" />
     <hr class="invisible" />
-    <div class="container text-center">
-      <p>James M Klein | 2016</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-3">
+          <p>James M Klein | &copy; 2016</p>
+        </div>
+        <div class="col-md-3">        
+          <a class="navbar-brand" href="https://www.linkedin.com/in/kleinjm" target="_blank">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a class="navbar-brand" href="https://github.com/kleinjm" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+          <a class="navbar-brand" href="http://jamesmklein.com/James_Klein_Resume.pdf" target="_blank">
+            <i class="fa fa-file-text"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </footer>
 </body>  
