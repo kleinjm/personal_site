@@ -3,10 +3,16 @@
 <head>
   <title>James M Klein</title>
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/layout.css">
-  <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/manifest.css">
+  <link rel="favicon" href="/favicon.ico" type="image/x-icon" />
+  
+  <script src="js/libs/modernizr.custom.97074.js"></script>
+  <script type="text/javascript" src="js/libs/jquery-2.2.0.min.js"></script>
   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/libs/jquery.hoverdir.js"></script>  
+  <script type="text/javascript" src="js/libs/isotope.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+
 </head>  
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -106,7 +112,134 @@
     <hr class="invisible" />
     <hr class="invisible" />
     <div class="container">
-      Here
+
+
+
+      <div class="btn-group filter-button-group" role="group">
+        <button type="button" class="btn btn-default active" data-filter="*">Show All</button>
+        <button type="button" class="btn btn-default" data-filter=".web-dev">Web Development</button>
+        <button type="button" class="btn btn-default" data-filter=".code-ex">Coding Exercises</button>
+        <button type="button" class="btn btn-default" data-filter=".school-work">School Work</button>
+        <button type="button" class="btn btn-default" data-filter=".robotics">Robotics</button>
+      </div>
+      <hr class="invisible">
+
+      <ul class="iso-items da-thumbs text-center">
+        <li class="iso-item web-dev">
+          <a href="https://copass.org/" target="_blank">
+            <img src="images/portfolio/copass.jpg" class="img-responsive" />
+            <div class="portfolio-text">
+              <h2>Copass</h2>
+              <p class="visible-lg visible-md">Global Network of Coworking Spaces</p>
+            </div>
+          </a>
+        </li>
+        <li class="iso-item web-dev">
+          <a href="https://gethappie.me/" target="_blank">
+            <img src="images/portfolio/happie.png" class="img-responsive" />
+            <div class="portfolio-text">
+              <h2>Happie</h2>
+              <p class="visible-lg visible-md">Video-based Speed Interviewing</p>
+            </div>
+          </a>
+        </li>
+        <li class="iso-item web-dev">
+          <a href="https://www.alignable.com/" target="_blank">
+            <img src="images/portfolio/alignable.png" class="img-responsive" />
+            <div class="portfolio-text">
+              <h2>Alignable</h2>
+              <p class="visible-lg visible-md">Social Network for Small Businesses</p>
+            </div>
+          </a>
+        </li>
+        <li class="iso-item code-ex">
+          <a href="https://github.com/kleinjm/trigger_action_handler" target="_blank">
+            <img src="images/portfolio/trigger_action.jpg" class="img-responsive" />
+            <div class="portfolio-text">
+              <h2>Trigger Action Handler</h2>
+              <p class="visible-lg visible-md">A complex CRM component</p>
+            </div>
+          </a>
+        </li>
+
+
+
+<!--               <div class="portfolio-link-container">
+                <a href="https://average-salary.herokuapp.com/" target="_blank" class="portfolio-link">
+                  App
+                </a>
+                <a href="https://github.com/kleinjm/average_salary" target="_blank" class="portfolio-link">
+                  Git
+                </a>
+              </div>
+ -->
+
+        <li class="iso-item code-ex web-dev">
+          <a href="#" class="js-git-or-app">
+            <img src="images/portfolio/average_salary.jpg" class="img-responsive" />
+            <div class="portfolio-text">
+              <h2>Average Salary</h2>
+              <p class="visible-lg visible-md">Earnings Report Interface Searcher</p>
+            </div>
+          </a>
+        </li>
+        <li class="iso-item code-ex web-dev">
+          <a href="https://github.com/kleinjm/business_map" target="_blank">
+            <img src="images/portfolio/map.jpg" class="img-responsive" />
+            <div class="portfolio-text">
+              <h2>Business Map</h2>
+              <p class="visible-lg visible-md">Hits an API and diplays the results on a map</p>
+            </div>
+          </a>
+        </li>
+        <li class="iso-item web-dev school-work">
+          <a href="https://github.com/kleinjm/utilities-app" target="_blank">
+            <img src="images/portfolio/utilitizer.jpg" class="img-responsive" />
+            <div class="portfolio-text">
+              <h2>Utilitizer</h2>
+              <p class="visible-lg visible-md">Utility Payment Aggregation App Prototype</p>
+            </div>
+          </a>
+        </li>
+        <li class="iso-item school-work web-dev">
+          <a href="https://github.com/kleinjm/apple-thief" target="_blank">
+            <img src="images/portfolio/apple_thief.jpg" class="img-responsive" />
+            <div class="portfolio-text">
+              <h2>Apple Thief</h2>
+              <p class="visible-lg visible-md">Dynamic Programming Knapsack Problem Application</p>
+            </div>
+          </a>
+        </li>
+        <li class="iso-item school-work">
+          <a href="http://is4800.tumblr.com/" target="_blank">
+            <img src="images/portfolio/is_4800_blog.jpg" class="img-responsive" />
+            <div class="portfolio-text">
+              <h2>Empirical Research Methods</h2>
+              <p class="visible-lg visible-md">Assignment Blog for Empirical Research Methods (IS 4800)</p>
+            </div>
+          </a>
+        </li>
+        <li class="iso-item school-work">
+          <a href="http://kleinjm.tumblr.com/" target="_blank">
+            <img src="images/portfolio/blog.jpg" class="img-responsive" />
+            <div class="portfolio-text">
+              <h2>Information Systems Design</h2>
+              <p class="visible-lg visible-md">Assignment Blog for Information Systems Design (IS 3500)</p>
+            </div>
+          </a>
+        </li>
+        <li class="iso-item robotics">
+          <a href="https://github.com/kleinjm/ArduinoAplhaBot" target="_blank">
+            <img src="images/portfolio/alpha_bot.jpg" class="img-responsive" />
+            <div class="portfolio-text">
+              <h2>Arduino Alpha Bot</h2>
+              <p class="visible-lg visible-md">Personal Robot Project</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+
     </div>
     <hr class="invisible" />
     <hr class="invisible" />
@@ -147,13 +280,13 @@
 
 
   <!-- FOOTER -->
-  <div class="footer">
+  <footer class="footer">
     <hr class="invisible" />
     <hr class="invisible" />
     <hr class="invisible" />
     <div class="container text-center">
       <p>James M Klein | 2016</p>
     </div>
-  </div>
+  </footer>
 </body>  
 </html>

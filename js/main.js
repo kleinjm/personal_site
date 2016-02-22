@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  // smooth scrolling
+  /////// Nav smooth scrolling ////////
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -14,4 +14,22 @@ $(document).ready(function(){
     }
   });
 
+
+  //////// Isotope /////////
+  var $container = $('.iso-items').isotope({
+    itemSelector: '.iso-item',
+    layoutMode: 'fitRows',
+  });
+
+  // filter items on button click
+  $('.filter-button-group').on( 'click', 'button', function() {
+    var filterValue = $(this).attr('data-filter');
+    $container.isotope({ filter: filterValue });
+    $('.filter-button-group button').removeClass("active")
+    $(this).addClass("active");
+  });
+
+
+  /////// Porfolio item hover effect ///////
+  $('.iso-items > li').each( function() { $(this).hoverdir(); } );
 });
