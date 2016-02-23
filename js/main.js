@@ -29,7 +29,7 @@ $(document).ready(function(){
   $('.filter-button-group').on( 'click', 'button', function() {
     var filterValue = $(this).attr('data-filter');
     $container.isotope({ filter: filterValue });
-    $('.filter-button-group button').removeClass("active")
+    $('.filter-button-group button').removeClass("active");
     $(this).addClass("active");
   });
 
@@ -39,15 +39,17 @@ $(document).ready(function(){
 
 
   /////// Portfolio links //////////
-  ///// WIP 
-  // $(".js-app-or-git").on('click', function(event) {
-  //   event.preventDefault();
-  //   // $(this).find(".portfolio-text").hide('slow');
-  //   $(this).find(".portfolio-text h2").remove();
-  //   $(this).find(".portfolio-text p").remove();
-  //   $(this).find(".portfolio-link-container").removeClass("hide");
+  $('.portfolio-bubble').on("click", function(){
+    $('.modal').modal('hide');
+  });
 
-  // })
+  $('.iso-item a').on("click", function(){
+    if($(this).data("toggle") == "modal"){
+      $(".portfolio-bubble.app").attr("href", $(this).data("app"));
+      $(".portfolio-bubble.git").attr("href", $(this).data("git"));
+    };
+  });
+
 });
 
 $(window).load(function(){

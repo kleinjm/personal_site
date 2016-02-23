@@ -1,8 +1,5 @@
-.footer a{
-  font-size: 2em;
-  text-decoration: none;
-  margin: 0 6px;
-}
-.footer a:hover{
+.footer{
+  height: 150px;
+  background-color: #333333;
   color: #FFF;
 }

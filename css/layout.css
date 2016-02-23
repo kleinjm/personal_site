@@ -71,8 +71,24 @@ h3.float-left{
   margin-top: 10px;
 }
 
-.footer{
-  height: 150px;
-  background-color: #333333;
+.social-icons{
+  line-height: 48px;
+  font-size: 2em;
+}
+.social-icons a{
+  text-decoration: none;
+  margin: 0 2px;
+}
+.social-icons a:hover{
   color: #FFF;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
 }
