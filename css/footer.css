@@ -1,0 +1,8 @@
+.footer a{
+  font-size: 2em;
+  text-decoration: none;
+  margin: 0 6px;
+}
+.footer a:hover{
+  color: #FFF;
+}

@@ -83,14 +83,17 @@
     <hr class="invisible" />
     <div class="container">
       <div class="bordered">
-        <div class="text-center">
-          <h1>
-            "He is flexible, great at working with other teams at the company, and happy to lend a hand wherever needed."
-          </h1>
+        <h1 class="text-center no-margin-bottom">
+          "He is flexible, great at working with other teams at the company, and happy to lend a hand wherever needed."
+        </h1>
+        <div class="row">
+          <div class="col-md-5 col-md-offset-7">
+            <h1 class="no-margin float-right"><small>- Shimon Rura, CTO at Happie</small></h1>
+          </div>
         </div>
       </div>
       <hr class="invisible" />
-      <p>I am a passionate full-stack developer that focuses on web and application development. My experiences in agile environments have taught me the art of developing quality code at scale. My love of startup culture, the variety of responsibilities, and the potential growth has kept me in the startup scene. As a young, open-minded entrepreneur, I am open to any opportunity that offers the ability to display my knowledge as well as expand my skills.</p>
+      <p>I am a passionate full-stack developer that focuses on web and application development. My experiences in agile environments have taught me the art of developing quality code quickly and at scale. My love of startup culture, the variety of responsibilities, and the potential growth has kept me in the startup scene. As a young, open-minded entrepreneur, I am open to any opportunity that offers the ability to display my knowledge as well as expand my skills.</p>
     </div>
     <hr class="invisible" />
     <hr class="invisible" />
@@ -248,23 +251,26 @@
     <hr class="invisible" />
     <hr class="invisible" />
     <div class="container-tight">
-      <!-- <form class="form-horizontal">
+      <h3>Get in Touch</h3>
+      <p>Please contact me if you have a project proposal or consulting needs. I am always interested in hearing about app ideas!</p>
+      <form action="http://www.bluehost.com/bluemail" enctype="multipart/form-data" method="POST" class="form-horizontal">
+        <input type="hidden" name="sendtoemail" value="me@jamesmklein.com"><br>
         <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" />
+          <label for="form-email">Email address</label>
+          <input id="form-email" type="email" class="form-control" placeholder="Email" />
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Message</label>
-          <textarea type="message" class="form-control" id="exampleInputPassword1" placeholder="Message" rows="5"></textarea>
+          <label for="form-message">Message</label>
+          <textarea id="form-message" name="message" type="message" class="form-control" placeholder="Message" rows="5"></textarea>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form> -->
-      <form action="http://www.bluehost.com/bluemail" enctype="multipart/form-data" method="POST">
-        Name: <input type="text" name="Name"><br>
-        Email: <input type="text" name="mailfrom"><br>
-        Message: <input type="text" name="Message"><br>
-        <input type="hidden" name="sendtoemail" value="james@jamesmklein.com"><br>
-        <input type="submit" value="Send Email">
+        <div class="row">
+          <div class="col-md-2 col-md-offset-5">
+            <button type="submit" value="Send Email" class="btn btn-default">
+              <span class="glyphicon glyphicon-send"></span>
+              Submit
+            </button>            
+          </div>
+        </div>
       </form>
     </div>
     <hr class="invisible" />
@@ -283,13 +289,13 @@
           <p>James M Klein | &copy; 2016</p>
         </div>
         <div class="col-md-3">        
-          <a class="navbar-brand" href="https://www.linkedin.com/in/kleinjm" target="_blank">
+          <a href="https://www.linkedin.com/in/kleinjm" target="_blank">
             <i class="fa fa-linkedin"></i>
           </a>
-          <a class="navbar-brand" href="https://github.com/kleinjm" target="_blank">
+          <a href="https://github.com/kleinjm" target="_blank">
             <i class="fa fa-github"></i>
           </a>
-          <a class="navbar-brand" href="http://jamesmklein.com/James_Klein_Resume.pdf" target="_blank">
+          <a href="http://jamesmklein.com/James_Klein_Resume.pdf" target="_blank">
             <i class="fa fa-file-text"></i>
           </a>
         </div>

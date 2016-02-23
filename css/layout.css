@@ -6,10 +6,6 @@ h3{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.container-tight{
-  width: 40%;
-  margin: 0 auto;
-}
 
 .navbar, .navbar-default .navbar-nav > li > a{
   margin-bottom: 0;
@@ -48,9 +44,6 @@ h3{
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0 5px 10px 0 rgba(0,0,0,.7);
 }
-
-.float-right{ float: right; }
-.float-left{ float: left; }
 
 h3.float-left{
   padding-left: 15px;

@@ -1,0 +1,9 @@
+.float-right{ float: right; }
+.float-left{ float: left; }
+.no-margin{ margin: 0; }
+.no-margin-bottom{ margin-bottom: 0; }
+
+.container-tight{
+  width: 40%;
+  margin: 0 auto;
+}
