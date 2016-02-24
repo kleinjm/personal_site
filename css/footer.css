@@ -3,3 +3,10 @@
   background-color: #333333;
   color: #FFF;
 }
+.footer .email{
+  color: #FFF;
+  text-decoration: none;
+}
+.footer .email:hover{
+  color: #008cba;
+}
