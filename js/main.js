@@ -45,8 +45,8 @@ $(document).ready(function(){
 
   $('.iso-item a').on("click", function(){
     if($(this).data("toggle") == "modal"){
-      $(".portfolio-bubble.app").attr("href", $(this).data("app"));
-      $(".portfolio-bubble.git").attr("href", $(this).data("git"));
+      $(".js-app").attr("href", $(this).data("app"));
+      $(".js-git").attr("href", $(this).data("git"));
     };
   });
 

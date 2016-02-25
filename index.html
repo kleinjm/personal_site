@@ -16,20 +16,26 @@
 
 </head>  
 <body>
-  <div id="portfolio-modal" class="modal fade portfolio-modal" tabindex="-1" role="dialog">
+  <div id="portfolio-modal" class="modal fade portfolio-modal text-center" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-sm">
       <div class="row">
-        <button type="button" class="btn btn-warning btn-circle float-right" data-dismiss="modal">
-          <i class="glyphicon glyphicon-remove"></i>
-        </button>
+        <div class="round-button float-right">
+          <div class="round-button-circle">
+            <a data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></a>
+          </div>
+        </div>
       </div>
-      <div class="portfolio-bubbles row text-center">
-        <a href="#" target="_blank" class="portfolio-bubble app col-md-5">
-          App
-        </a>
-        <a href="#" target="_blank" class="portfolio-bubble git col-md-5 col-md-offset-2">
-          Git
-        </a>
+      <div class="row">
+        <div class="round-button float-left">
+          <div class="round-button-circle">
+            <a href="#" target="_blank" class="round-button js-app">App</a>
+          </div>
+        </div>
+        <div class="round-button float-right">
+          <div class="round-button-circle">
+            <a href="#" target="_blank" class="round-button js-git">Git</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -85,12 +91,12 @@
       <div class="item">
         <img src="images/greece.jpg" class="carousel-img" alt="Greece">
       </div>
-    </div>
-  </div>
-  <div class="my-carousel-caption hidden-xs jumbotron">
-    <div class="col-md-12 text-center">
-      <h1>James M Klein</h1>
-      <h2>Full-stack Developer</h2>
+      <div class="my-carousel-caption hidden-xs jumbotron">
+        <div class="col-md-12 text-center">
+          <h1>James M Klein</h1>
+          <h2>Full-stack Developer</h2>
+        </div>
+      </div>
     </div>
   </div>
 
