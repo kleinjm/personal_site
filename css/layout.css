@@ -15,6 +15,15 @@ h3{
   font-size: 30px;
 }
 
+@media (max-width: 767px) {
+  .navbar-brand{
+    font-size: 20px;
+  }
+  .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
+    background-color: #333;
+  }
+}  
+
 
 .carousel-img{
   width: 100%;
