@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>  
+<html>
 <head>
   <title>James M Klein</title>
   <meta charset="UTF-8">
@@ -15,21 +15,22 @@
   <link rel="stylesheet" type="text/css" href="css/manifest.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="icon" href="favicon.ico" />
-  
+
   <script src="js/libs/modernizr.custom.97074.js"></script>
   <script type="text/javascript" src="js/libs/jquery-2.2.0.min.js"></script>
   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/libs/jquery.hoverdir.js"></script>  
+  <script type="text/javascript" src="js/libs/jquery.hoverdir.js"></script>
   <script type="text/javascript" src="js/libs/isotope.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 
-</head>  
+</head>
 <body>
   <div id="portfolio-modal" class="modal fade portfolio-modal text-center" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-sm">
       <div class="row">
         <div class="col-md-2 col-md-offset-10">
-          <a class="btn btn-danger btn-sm" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></a>
+          <a class="btn btn-danger btn-sm glyphicon glyphicon-remove" data-dismiss="modal">
+          </a>
         </div>
       </div>
       <hr class="invisible" />
@@ -71,7 +72,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#home">Home<span class="sr-only">(current)</span></a></li> 
+              <li><a href="#home">Home<span class="sr-only">(current)</span></a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -108,9 +109,11 @@
   <div id="about" class="section">
     <div class="section-bar">
       <div class="container">
-        <a href="#about">
-          <h3 class="float-left">About</h3>
-        </a>
+        <h3 class="float-left">
+          <a href="#about">
+            About
+          </a>
+        </h3>
         <a href="#home" class="btn btn-default btn-sm float-right btn-up">
           <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
@@ -140,9 +143,11 @@
   <div id="portfolio" class="section">
     <div class="section-bar">
       <div class="container">
-        <a href="#portfolio">
-          <h3 class="float-left">Portfolio</h3>
-        </a>
+        <h3 class="float-left">
+          <a href="#portfolio">
+            Portfolio
+          </a>
+        </h3>
         <a href="#home" class="btn btn-default btn-sm float-right btn-up">
           <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
@@ -273,9 +278,9 @@
   <div id="contact" class="section">
     <div class="section-bar">
       <div class="container">
-        <a href="#contact">
-          <h3 class="float-left">Contact</h3>
-        </a>
+        <h3 class="float-left">
+          <a href="#contact">Contact</a>
+        </h3>
         <a href="#home" class="btn btn-default btn-sm float-right btn-up">
           <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
@@ -288,9 +293,10 @@
       <p>Please contact me if you have a job opportunity, project proposal or consulting needs. I am always interested in hearing about new companies and app ideas!</p>
       <form action="http://my.bluehost.com/bluemail" enctype="multipart/form-data" method="POST" class="form-horizontal">
         <input type="hidden" name="sendtoemail" value="me@jamesmklein.com"><br>
+        <input type="hidden" name="redirect" value="http://www.jamesmklein.com/">
         <div class="form-group">
           <label for="form-email">Email address</label>
-          <input id="form-email" type="email" class="form-control" placeholder="Email" />
+          <input id="form-email" name="mailfrom" type="text" class="form-control" placeholder="Email" />
         </div>
         <div class="form-group">
           <label for="form-message">Message</label>
@@ -301,7 +307,7 @@
             <button type="submit" value="Send Email" class="btn btn-default">
               <span class="glyphicon glyphicon-send"></span>
               Submit
-            </button>            
+            </button>
           </div>
         </div>
       </form>
@@ -322,7 +328,7 @@
           <a href="mailto:me@jamesmklein.com" class="email">me@jamesmklein.com</a>
           <p>914.589.1965</p>
         </div>
-        <div class="col-md-3 social-icons">        
+        <div class="col-md-3 social-icons">
           <a href="http://jamesmklein.com/James_Klein_Resume.pdf" target="_blank">
             <i class="fa fa-file-text"></i>
           </a>
@@ -336,5 +342,5 @@
       </div>
     </div>
   </footer>
-</body>  
+</body>
 </html>
