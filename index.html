@@ -88,18 +88,12 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="images/skyline.jpg" class="carousel-img" alt="Boston Skyline">
-      </div>
-      <div class="item">
         <img src="images/glacer.jpg" class="carousel-img" alt="Glacer National Park">
-      </div>
-      <div class="item">
-        <img src="images/greece.jpg" class="carousel-img" alt="Greece">
       </div>
       <div class="my-carousel-caption hidden-xs jumbotron">
         <div class="col-md-12 text-center">
           <h1>James M Klein</h1>
-          <h2>Full-stack Developer</h2>
+          <h2>Developer, Manager, Leader</h2>
         </div>
       </div>
     </div>
@@ -122,18 +116,21 @@
     <hr class="invisible" />
     <hr class="invisible" />
     <div class="container">
+      <div class="headshot-container">
+        <img src="images/headshot_square.jpg" class="img-responsive img-circle center-block">
+      </div>
       <div class="bordered">
         <h1 class="text-center no-margin-bottom">
-          "He is flexible, great at working with other teams at the company, and happy to lend a hand wherever needed."
+          "He is consistently accountable to deliverables, deadlines, high standards, and concrete results"
         </h1>
         <div class="row">
           <div class="col-md-5 col-md-offset-7">
-            <h1 class="no-margin float-right"><small>- Shimon Rura, CTO at Happie</small></h1>
+            <h1 class="no-margin float-right"><small>- Robert Malko, Tech Lead at Doximity</small></h1>
           </div>
         </div>
       </div>
       <hr class="invisible" />
-      <p>I am a passionate full-stack developer that focuses on web and application development. My experiences in agile environments have taught me the art of developing quality code quickly and at scale. My love of startup culture, the variety of responsibilities, and the potential growth has kept me in the startup scene. As a young, open-minded entrepreneur, I am interested in any opportunity that offers the ability to display my knowledge as well as expand my skills.</p>
+      <p>I am a passionate full-stack developer that focuses on web and application development. My experiences in agile environments have taught me the art of developing quality code quickly and at scale. My love of startup culture, the variety of responsibilities, and the potential growth has kept me in the startup scene. As an open-minded entrepreneur, I am interested in any opportunity that offers the ability to display my knowledge and make an impact.</p>
     </div>
     <hr class="invisible" />
     <hr class="invisible" />
@@ -160,6 +157,8 @@
       <div class="btn-group filter-button-group" role="group">
         <button type="button" class="btn btn-default active" data-filter="*">Show All</button>
         <button type="button" class="btn btn-default" data-filter=".web-dev">Web Development</button>
+        <button type="button" class="btn btn-default" data-filter=".plugins">Plugins</button>
+        <button type="button" class="btn btn-default" data-filter=".articles">Articles</button>
         <button type="button" class="btn btn-default" data-filter=".code-ex">Coding Exercises</button>
         <button type="button" class="btn btn-default" data-filter=".school-work">School Work</button>
         <button type="button" class="btn btn-default" data-filter=".robotics">Robotics</button>
@@ -176,6 +175,42 @@
             </div>
           </a>
         </li>
+
+        <li class="iso-item plugins">
+          <a href="https://www.npmjs.com/package/hubot-estimate" target="_blank">
+            <img src="images/portfolio/hubot_estimate.png" class="img-responsive" alt="hubot-estimate" />
+            <div class="portfolio-text">
+              <h2>Hubot Estimate</h2>
+              <p class="visible-lg visible-md">Slack Estimation Bot</p>
+            </div>
+          </a>
+        </li>
+
+        <li class="iso-item articles">
+          <a href="https://technology.doximity.com/articles/developing-your-external-brain" target="_blank">
+            <img src="images/portfolio/external_brain.jpg" class="img-responsive" alt="external-brain" />
+            <div class="portfolio-text">
+              <h2>Developing Your External Brain</h2>
+            </div>
+          </a>
+        </li>
+        <li class="iso-item articles">
+          <a href="https://technology.doximity.com/articles/token-authentication-with-rails-vue-graphql-and-devise" target="_blank">
+            <img src="images/portfolio/authentication.png" class="img-responsive" alt="lock" />
+            <div class="portfolio-text">
+              <h2>Token Authentication with Rails, Vue, GraphQL and Devise</h2>
+            </div>
+          </a>
+        </li>
+        <li class="iso-item articles">
+          <a href="https://technology.doximity.com/articles/agile-story-estimation-bot-for-slack-using-hubot" target="_blank">
+            <img src="images/portfolio/estimation.png" class="img-responsive" alt="ballot" />
+            <div class="portfolio-text">
+              <h2>Agile Story Estimation Bot for Slack using Hubot</h2>
+            </div>
+          </a>
+        </li>
+
         <li class="iso-item web-dev">
           <a href="http://www.thepurpleshark.com/" target="_blank">
             <img src="images/portfolio/purpleshark.png" class="img-responsive" alt="The Purple Shark" />
@@ -326,27 +361,8 @@
     <hr class="invisible" />
     <div class="container-tight">
       <h3>Get in Touch</h3>
-      <p>Please contact me if you have a job opportunity, project proposal or consulting needs. I am always interested in hearing about new companies and app ideas!</p>
-      <form action="http://my.bluehost.com/bluemail" enctype="multipart/form-data" method="POST" class="form-horizontal">
-        <input type="hidden" name="sendtoemail" value="me@jamesmklein.com"><br>
-        <input type="hidden" name="redirect" value="http://www.jamesmklein.com/">
-        <div class="form-group">
-          <label for="form-email">Email address</label>
-          <input id="form-email" name="mailfrom" type="text" class="form-control" placeholder="Email" />
-        </div>
-        <div class="form-group">
-          <label for="form-message">Message</label>
-          <textarea id="form-message" name="message" class="form-control" placeholder="Message" rows="5"></textarea>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-5">
-            <button type="submit" value="Send Email" class="btn btn-default">
-              <span class="glyphicon glyphicon-send"></span>
-              Submit
-            </button>
-          </div>
-        </div>
-      </form>
+      <p>Please contact me if you have a job opportunity, project proposal or consulting needs.</p>
+      <p>Reach me at <a href="mailto:me@jamesmklein.com">me@jamesmklein.com</a></p>
     </div>
     <hr class="invisible" />
     <hr class="invisible" />
@@ -357,12 +373,14 @@
   <footer class="footer">
     <hr class="invisible" />
     <hr class="invisible" />
+    <hr class="invisible" />
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-md-offset-3">
-          <p class="no-margin">James M Klein | &copy; 2016</p>
+          <p class="no-margin">James M Klein | &copy;
+            <script>document.write( new Date().getFullYear() );</script>
+          </p>
           <a href="mailto:me@jamesmklein.com" class="email">me@jamesmklein.com</a>
-          <p>914.589.1965</p>
         </div>
         <div class="col-md-3 social-icons">
           <a href="http://jamesmklein.com/James_Klein_Resume.pdf" target="_blank">
@@ -376,6 +394,8 @@
           </a>
         </div>
       </div>
+      <hr class="invisible" />
+      <hr class="invisible" />
     </div>
   </footer>
 </body>
