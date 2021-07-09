@@ -25,26 +25,6 @@
 
 </head>
 <body>
-  <div id="portfolio-modal" class="modal fade portfolio-modal text-center" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-sm">
-      <div class="row">
-        <div class="col-md-2 col-md-offset-10">
-          <a class="btn btn-danger btn-sm glyphicon glyphicon-remove" data-dismiss="modal">
-          </a>
-        </div>
-      </div>
-      <hr class="invisible" />
-      <div class="row">
-        <div class="col-md-6">
-          <a href="#" target="_blank" class="btn btn-info btn-lg js-app">App</a>
-        </div>
-        <div class="col-md-6">
-          <a href="#" target="_blank" class="btn btn-warning btn-lg js-git">Git</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="container-fluid">
@@ -93,7 +73,7 @@
       <div class="my-carousel-caption hidden-xs jumbotron">
         <div class="col-md-12 text-center">
           <h1>James M Klein</h1>
-          <h2>Developer, Manager, Leader</h2>
+          <h2>Full-Stack Developer</h2>
         </div>
       </div>
     </div>
@@ -157,8 +137,8 @@
       <div class="btn-group filter-button-group" role="group">
         <button type="button" class="btn btn-default active" data-filter="*">Show All</button>
         <button type="button" class="btn btn-default" data-filter=".web-dev">Web Development</button>
-        <button type="button" class="btn btn-default" data-filter=".plugins">Plugins</button>
         <button type="button" class="btn btn-default" data-filter=".articles">Articles</button>
+        <button type="button" class="btn btn-default" data-filter=".plugins">Plugins</button>
         <button type="button" class="btn btn-default" data-filter=".code-ex">Coding Exercises</button>
         <button type="button" class="btn btn-default" data-filter=".school-work">School Work</button>
         <button type="button" class="btn btn-default" data-filter=".robotics">Robotics</button>
@@ -166,6 +146,25 @@
       <hr class="invisible">
 
       <ul class="iso-items da-thumbs text-center">
+        <li class="iso-item web-dev">
+          <a href="https://www.asktrim.com/" target="_blank">
+            <img src="images/portfolio/trim.svg" class="img-responsive" alt="Trim" />
+            <div class="portfolio-text">
+              <h2>Trim</h2>
+              <p class="visible-lg visible-md">Personal Finance App</p>
+            </div>
+          </a>
+        </li>
+
+        <li class="iso-item articles">
+          <a href="https://medium.com/trim-bisect/a-rails-developers-guide-to-joining-a-startup-cdfc8fc66d86" target="_blank">
+            <img src="images/portfolio/guide.jpeg" class="img-responsive" alt="A (Rails) Developer’s Guide to Joining a Startup" />
+            <div class="portfolio-text">
+              <h2>A (Rails) Developer’s Guide to Joining a Startup</h2>
+            </div>
+          </a>
+        </li>
+
         <li class="iso-item web-dev">
           <a href="https://www.cancercompass.com/" target="_blank">
             <img src="images/portfolio/cancer-compass.png" class="img-responsive" alt="cancer compass" />
@@ -277,7 +276,7 @@
           </a>
         </li>
         <li class="iso-item web-dev">
-          <a href="#" data-toggle="modal" data-target=".portfolio-modal" data-app="http://recipes.jamesmklein.com" data-git="https://github.com/kleinjm/recipe_viewer">
+          <a href="https://github.com/kleinjm/recipe_viewer" target="_blank">
             <img src="images/portfolio/recipe_viewer.jpeg" class="img-responsive" alt="recipe viewer" />
             <div class="portfolio-text">
               <h2>Recipe Viewer</h2>
@@ -295,7 +294,7 @@
           </a>
         </li>
         <li class="iso-item code-ex web-dev">
-          <a href="#" data-toggle="modal" data-target=".portfolio-modal" data-app="https://average-salary.herokuapp.com/" data-git="https://github.com/kleinjm/average_salary">
+          <a href="https://github.com/kleinjm/average_salary" target="_blank">
             <img src="images/portfolio/average_salary.jpg" class="img-responsive" alt="average_salary" />
             <div class="portfolio-text">
               <h2>Average Salary</h2>
@@ -313,7 +312,7 @@
           </a>
         </li>
         <li class="iso-item web-dev school-work">
-          <a href="#" data-toggle="modal" data-target=".portfolio-modal" data-app="http://utilities-app-dev.herokuapp.com/" data-git="https://github.com/kleinjm/utilities-app">
+          <a href="https://github.com/kleinjm/utilities-app" target="_blank">
             <img src="images/portfolio/utilitizer.jpg" class="img-responsive" alt="utilitizer" />
             <div class="portfolio-text">
               <h2>Utilitizer</h2>
@@ -322,7 +321,7 @@
           </a>
         </li>
         <li class="iso-item school-work web-dev">
-          <a href="#" data-toggle="modal" data-target=".portfolio-modal" data-app="https://apple-thief.herokuapp.com/" data-git="https://github.com/kleinjm/apple-thief">
+          <a href="https://github.com/kleinjm/apple-thief" target="_blank">
             <img src="images/portfolio/apple_thief.png" class="img-responsive" alt="apple_thief" />
             <div class="portfolio-text">
               <h2>Apple Thief</h2>
@@ -358,9 +357,8 @@
           </a>
         </li>
       </ul>
-
-
     </div>
+
     <hr class="invisible" />
     <hr class="invisible" />
   </div>

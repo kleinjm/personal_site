@@ -36,20 +36,6 @@ $(document).ready(function(){
 
   /////// Porfolio item hover effect ///////
   $('.iso-items > li').each( function() { $(this).hoverdir(); } );
-
-
-  /////// Portfolio links //////////
-  $('.portfolio-bubble').on("click", function(){
-    $('.modal').modal('hide');
-  });
-
-  $('.iso-item a').on("click", function(){
-    if($(this).data("toggle") == "modal"){
-      $(".js-app").attr("href", $(this).data("app"));
-      $(".js-git").attr("href", $(this).data("git"));
-    };
-  });
-
 });
 
 $(window).load(function(){
